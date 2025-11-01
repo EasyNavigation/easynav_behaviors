@@ -60,7 +60,7 @@ private:
   nav_msgs::msg::Goals goals_;
   GoalManagerClient::SharedPtr gm_client_;
 
- rclcpp::TimerBase::SharedPtr timer_;
+  rclcpp::TimerBase::SharedPtr timer_;
 };
 
 }  // namespace easynav
