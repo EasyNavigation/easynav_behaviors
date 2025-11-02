@@ -34,7 +34,7 @@ using namespace std::chrono_literals;
 PatrollingNode::PatrollingNode(const rclcpp::NodeOptions & options)
 : Node("patrolling_node", options)
 {
-  timer_ = create_timer(
+  timer_ = create_wall_timer(
     100ms,
     std::bind(&PatrollingNode::cycle, this));
 }
