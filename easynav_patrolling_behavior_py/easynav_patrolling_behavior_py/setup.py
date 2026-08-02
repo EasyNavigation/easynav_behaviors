@@ -18,7 +18,6 @@ setup(
     maintainer_email='fmrico@gmail.com',
     description='Python reimplementation of the EasyNavigation Patrolling Behavior.',
     license='GPL-3.0-only',
-    tests_require=['pytest'],
     entry_points={
         'console_scripts': [
             'patrolling_node = easynav_patrolling_behavior_py.patrolling_node:main',
